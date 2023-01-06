@@ -5,18 +5,18 @@ class Homepage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-        var days = 30;
-        var name = "codepur";
+    var days = 30;
+    var name = "codepur";
     return Scaffold(
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
       body: Center(
         child: Container(
-          child: Text("Sumit Kumar $days day of flutter by $name"),
+          child: Text("i_m_caffeine $days day of flutter by $name"),
         ),
       ),
-      drawer: Drawer() ,
+      drawer: Drawer(),
     );
   }
 }
